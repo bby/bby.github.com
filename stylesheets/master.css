@@ -1,6 +1,6 @@
 html{-moz-background-size:cover;-o-background-size:cover;-webkit-background-size:cover;background-attachment:fixed;background-position:center center;background-repeat:no-repeat;background-size:cover;height:100%}
 h1{font-size:1.7em}
-body{background:url(assets/images/dg_pattern_20.png);color:#fff;font-family:georgia, serif;height:100%;line-height:1.35em;margin:0}
+body{background:url(../assets/images/dg_pattern_20.png);color:#fff;font-family:georgia, serif;height:100%;line-height:1.35em;margin:0}
 a{color:#fff}
 #information,#twitter_update_list{background:rgba(0,0,0,0.5);margin:0 33px;padding:13px 24px 7px 17px;width:280px}
 #twitter{display:block;overflow:hidden;padding-top:13px}
