@@ -17,7 +17,7 @@
         background:      -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
         background:         linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* W3C */
         
-        
+
         color: #202352;
         padding: 10% 0 10% 10%;
     }
@@ -116,16 +116,26 @@
         display: none;
     }
 
+@media screen and (orientation:portrait) {
+    /* Portrait styles */
+    background: -webkit-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
+    background:      -o-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
+    background:         linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* W3C *
+}
+
+
 /* Smartphones (portrait) ----------- */
 @media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px){
+and (min-width : 320px) {
     h1 {
       font-size: 3rem;
       line-height: 1em
     }
 
     article {
+        border: 1px solid;
         padding-top: 10px;
         width: 90%;
     }
