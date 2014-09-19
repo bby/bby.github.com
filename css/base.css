@@ -173,7 +173,6 @@ and (max-width : 480px) {
     h1 {
       font-size: 3rem;
       line-height: 1em;
-      padding-bottom: 15px;
     }
 
     article {
