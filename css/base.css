@@ -2,6 +2,8 @@
       font-size: 62.5%;  
     }
 
+    html, body { min-height: 100%; }
+
     html, body, textarea, input {
         font-family: 'Karla', Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 1rem; /* =10px */
@@ -118,24 +120,63 @@
 
 @media screen and (orientation:portrait) {
     /* Portrait styles */
-    background: -webkit-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
-    background:    -moz-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
-    background:     -ms-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
-    background:      -o-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
-    background:         linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* W3C *
+    body { 
+        background: -webkit-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
+        background:    -moz-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
+        background:     -ms-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
+        background:      -o-linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
+        background:         linear-gradient(180deg, #24C6DC 10%, #514A9D 90%); /* W3C */
+    }
 }
 
 
 /* Smartphones (portrait) ----------- */
+
 @media only screen 
-and (min-width : 320px) {
+and (max-width : 1060px) {
+    article {
+        width: 40%;
+    }
+}
+
+@media only screen 
+and (max-width : 980px) {
+    article {
+        width: 50%;
+    }
+}
+
+@media only screen 
+and (max-width : 800px) {
+    article {
+        width: 60%;
+    }
+}
+
+@media only screen 
+and (max-width : 670px) {
+    article {
+        width: 70%;
+    }
+
+    h1 {
+      line-height: 1em;
+    }
+
+    span {
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen 
+and (max-width : 480px) {
     h1 {
       font-size: 3rem;
-      line-height: 1em
+      line-height: 1em;
+      padding-bottom: 15px;
     }
 
     article {
-        border: 1px solid;
         padding-top: 10px;
         width: 90%;
     }
