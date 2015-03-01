@@ -1,122 +1,141 @@
-    html {
-      font-size: 62.5%;  
+html {
+  font-size: 62.5%;  
+}
+
+html, body { min-height: 100%; }
+
+html, body, textarea, input {
+    font-family: 'Karla', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem; /* =10px */
+    line-height: 1.4;
+}
+
+h1, h2, h3, p, a { text-rendering: optimizeLegibility; }
+body {
+
+    background: -webkit-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* W3C */
+    
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #202352;
+}
+
+a { color: #211e25; 
+    text-decoration: none; 
+    border-bottom: 1px dotted #202352;
+
+}
+
+a:hover { border-bottom: 1px solid #202352; }
+
+#sidebar a, #sidebar p {
+    color: #fff;
+}
+
+strong { 
+    font-weight: bold; 
+    letter-spacing: -2px
+    word-spacing: -2px;
+}
+
+h1 {
+    font-family: "Nocturno Bold 11";
+    font-size: 5rem; /* =10px */
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #fff;
+    width: 100%;
+    text-transform: lowercase;
+}
+
+h1 span {
+    float: right;
+}
+
+header {
+    max-width: 1200px;
+    margin-bottom: 65px;
+}
+
+#main-content {
+    max-width: 1200px;
+}
+
+nav { 
+    clear: both; 
+    padding-top: 36px;
+}
+
+nav a {
+    border: none;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+nav a:hover {
+    border: none;
+}
+
+article {
+    float: left;
+    width: 37.5%;
+    margin-right: 5%;
+}
+
+*{
+     pointer-events: fill;
     }
 
-    html, body { min-height: 100%; }
+.block {
+    float: left;
+}
 
-    html, body, textarea, input {
-        font-family: 'Karla', Arial, "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 1rem; /* =10px */
-        line-height: 1.4;
-    }
+.gallery a {
+    border: none;
+}
 
-    h1, h2, h3, p, a { text-rendering: optimizeLegibility; }
-    body {
-        
-        background: -webkit-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Chrome 10+, Saf5.1+ */
-        background:    -moz-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* FF3.6+ */
-        background:     -ms-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* IE10 */
-        background:      -o-linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* Opera 11.10+ */
-        background:         linear-gradient(90deg, #24C6DC 10%, #514A9D 90%); /* W3C */
-        
+#beef {
+    background: url('/img/beef-logo.gif') no-repeat;
+    display: block;
+    width: 150px;
+    height: 69px;
+}
 
-        color: #202352;
-        padding: 10% 0 10% 10%;
-    }
+svg path {
+    -webkit-transition: fill .4s ease;
+    -moz-transition: fill .4s ease;
+    -o-transition: fill .4s ease;
+    transition: fill .4s ease;
+    fill: #202352;
+}
 
-    a { color: #211e25; 
-        text-decoration: none; 
-        border-bottom: 1px dotted #202352;
+svg:hover path {
+    fill: #fff;
+}
 
-    }
+#phone {
+    display: none;
+}
 
-    a:hover { border-bottom: 1px solid #202352; }
+/*** WORK ***/
+#work-content {
+    margin-top: 3em;
+}
 
-    strong { 
-        font-weight: bold; 
-        letter-spacing: -2px
-        word-spacing: -2px;
-    }
-
-    h1 {
-        font-family: "Nocturno Bold 11";
-        font-size: 5rem; /* =10px */
-        font-style: normal;
-        font-weight: normal;
-        font-stretch: normal;
-        color: #fff;
-        width: 100%;
-        text-transform: lowercase;
-    }
-
-    h1 span {
-        float: right;
-    }
-
-    header {
-        max-width: 1200px;
-        margin-bottom: 65px;
-    }
-
-    #main-content {
-        max-width: 1200px;
-    }
-
-    nav { 
-        clear: both; 
-        padding-top: 36px;
-    }
-
-    nav a {
-        border: none;
-        margin-right: 10px;
-        font-weight: normal;
-    }
-
-    nav a:hover {
-        border: none;
-    }
-
-    article {
-        float: left;
-        width: 37.5%;
-        margin-right: 5%;
-    }
-
-    *{
-         pointer-events: fill;
-        }
-
-    .block {
-        float: left;
-    }
-
-    .gallery a {
-        border: none;
-    }
-
-    #beef {
-        background: url('/img/beef-logo.gif') no-repeat;
-        display: block;
-        width: 150px;
-        height: 69px;
-    }
-
-    svg path {
-        -webkit-transition: fill .4s ease;
-        -moz-transition: fill .4s ease;
-        -o-transition: fill .4s ease;
-        transition: fill .4s ease;
-        fill: #202352;
-    }
-
-    svg:hover path {
-        fill: #fff;
-    }
-
-    #phone {
-        display: none;
-    }
+#work-content article {
+    width: 30%;
+    height: 200px;
+    border: 10px solid white;
+    background-color: #333;
+    float: left;
+}
 
 @media screen and (orientation:portrait) {
     /* Portrait styles */
@@ -168,6 +187,59 @@ and (max-width : 670px) {
     }
 }
 
+/** push bar ***/
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    -webkit-transition:  left 0.4s ease-in-out;
+    -moz-transition:  left 0.4s ease-in-out;
+    -ms-transition:  left 0.4s ease-in-out;
+    -o-transition:  left 0.4s ease-in-out;
+    transition:  left 0.4s ease-in-out;
+}
+ 
+.container.open-sidebar {
+    left: 33%;
+}
+ 
+#sidebar {
+    position: absolute;
+    left: -33%;
+    background: #211e25;
+    width: 33%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 5% 0 0 5%;
+}
+
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    padding: 10% 0 10% 10%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+}
+.main-content .content{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+padding-left: 60px;
+width: 100%;
+}
+
+.main-content #sidebar-toggle {
+    background: #DF314D;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 10px 7px;
+    float: left;
+}
+
 @media only screen 
 and (max-width : 480px) {
     h1 {
@@ -190,5 +262,14 @@ and (max-width : 480px) {
 
     #phone {
         display: inline;
+    }
+
+    #sidebar {
+        left: -70%;
+        width: 70%;
+    }
+
+    .container.open-sidebar {
+        left: 70%;
     }
 }
