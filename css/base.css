@@ -22,7 +22,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    overflow: hidden;
     color: #202352;
 }
 
@@ -193,26 +193,28 @@ and (max-width : 670px) {
     position: relative;
     height: 100%;
     width: 100%;
-    left: 0;
-    -webkit-transition:  left 0.4s ease-in-out;
-    -moz-transition:  left 0.4s ease-in-out;
-    -ms-transition:  left 0.4s ease-in-out;
-    -o-transition:  left 0.4s ease-in-out;
-    transition:  left 0.4s ease-in-out;
+    right: 0; 
+    -webkit-transition:  right 0.4s ease-in-out;
+    -moz-transition:  right 0.4s ease-in-out;
+    -ms-transition:  right 0.4s ease-in-out;
+    -o-transition:  right 0.4s ease-in-out;
+    transition:  right 0.4s ease-in-out;
 }
  
 .container.open-sidebar {
-    left: 33%;
+    right: 33%;
 }
  
 #sidebar {
     position: absolute;
-    left: -33%;
+    top: 0;
+    right: -33%;
     background: #211e25;
     width: 33%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 5% 0 0 5%;
+    padding: 5% 5% 0 0;
+    text-align: right;
 }
 
 
@@ -227,17 +229,8 @@ and (max-width : 670px) {
 .main-content .content{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-padding-left: 60px;
-width: 100%;
-}
-
-.main-content #sidebar-toggle {
-    background: #DF314D;
-    border-radius: 3px;
-    display: block;
-    position: relative;
-    padding: 10px 7px;
-    float: left;
+    padding-left: 60px;
+    width: 100%;
 }
 
 @media only screen 
@@ -245,6 +238,7 @@ and (max-width : 480px) {
     h1 {
       font-size: 3rem;
       line-height: 1em;
+      padding-bottom: 3vh;
     }
 
     article {
@@ -265,11 +259,11 @@ and (max-width : 480px) {
     }
 
     #sidebar {
-        left: -70%;
+        right: -70%;
         width: 70%;
     }
 
     .container.open-sidebar {
-        left: 70%;
+        right: 70%;
     }
 }
