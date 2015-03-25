@@ -233,6 +233,52 @@ and (max-width : 670px) {
     width: 100%;
 }
 
+#description {
+    float: right;
+    position: relative;
+    display: block;
+    position: relative;
+    height: 400px;
+    text-align: right;
+}
+#description img {
+    float: right;
+    margin-bottom: 1.2em;
+}
+#description p {
+    clear: both;
+}
+
+.divider {
+    padding-top: 2.2em;
+    display: block;
+    float: right;
+    width: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+#sidebar nav a {
+    margin-right: 0;
+}
+
+.slider {
+
+    position: relative;
+    top: -400px;
+    left: 0px;
+    /*overflow-y: hidden;*/
+     /* approximate max height */
+
+     -webkit-transition:  top 0.4s cubic-bezier(0, 1, 0.5, 1);
+    -moz-transition:  top 0.4s cubic-bezier(0, 1, 0.5, 1);
+    -ms-transition:  top 0.4s cubic-bezier(0, 1, 0.5, 1);
+    -o-transition:  top 0.4s cubic-bezier(0, 1, 0.5, 1);
+    transition:  top 0.4s cubic-bezier(0, 1, 0.5, 1);
+}
+.slider.closed {
+    top: 0;
+}
+
 @media only screen 
 and (max-width : 480px) {
     h1 {
@@ -261,6 +307,7 @@ and (max-width : 480px) {
     #sidebar {
         right: -70%;
         width: 70%;
+        padding: 15% 5% 0 0;
     }
 
     .container.open-sidebar {
