@@ -21,14 +21,18 @@
 			#clip3 {background: #e74c3c;}
 			#clip4 {background: #f1c40f;}
 			#clip5 {background: #d35400;}
+			#clip6 {background: #27ae60;}
+			#clip7 {background: #8e44ad;}
 		</style>
 	</head>
 	<body>
 		<div id="clip1" class="clip">grooooellll</div>
 		<div id="clip2" class="clip">goodgrief</div>
 		<div id="clip3" class="clip">ithinkihavefood</div>
-		<div id="clip4" class="clip">opera_groell</div>
+		<div id="clip4" class="clip">operagroell</div>
 		<div id="clip5" class="clip">tomaso</div>
+		<div id="clip6" class="clip">itsmaggers</div>
+		<div id="clip7" class="clip">socks</div>
 	</body>
 	<script src="howler.min.js"></script>
 	<script type="text/javascript">
@@ -37,6 +41,8 @@
 		var clip3 = document.getElementById("clip3");
 		var clip4 = document.getElementById("clip4");
 		var clip5 = document.getElementById("clip5");
+		var clip6 = document.getElementById("clip6");
+		var clip7 = document.getElementById("clip7");
 
 		clip1.onclick = function() {
 			var sound = new Howl({
@@ -65,6 +71,18 @@
 		clip5.onclick = function() {
 			var sound = new Howl({
 			  urls: ['tomaso.mp3']
+			}).play();
+		}
+
+		clip6.onclick = function() {
+			var sound = new Howl({
+			  urls: ['itsmaggers.mp3']
+			}).play();
+		}
+
+		clip7.onclick = function() {
+			var sound = new Howl({
+			  urls: ['socks.mp3']
 			}).play();
 		}
 	</script>
