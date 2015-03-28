@@ -23,6 +23,8 @@
 			#clip5 {background: #d35400;}
 			#clip6 {background: #27ae60;}
 			#clip7 {background: #8e44ad;}
+			#clip8 {background: #e74c3c;}
+			#clip9 {background: #f1c40f;}
 		</style>
 	</head>
 	<body>
@@ -33,6 +35,8 @@
 		<div id="clip5" class="clip">tomaso</div>
 		<div id="clip6" class="clip">itsmaggers</div>
 		<div id="clip7" class="clip">socks</div>
+		<div id="clip8" class="clip">stolemy</div>
+		<div id="clip9" class="clip">cheezuschrist</div>
 	</body>
 	<script src="howler.min.js"></script>
 	<script type="text/javascript">
@@ -43,6 +47,8 @@
 		var clip5 = document.getElementById("clip5");
 		var clip6 = document.getElementById("clip6");
 		var clip7 = document.getElementById("clip7");
+		var clip8 = document.getElementById("clip8");
+		var clip9 = document.getElementById("clip9");
 
 		clip1.onclick = function() {
 			var sound = new Howl({
@@ -83,6 +89,18 @@
 		clip7.onclick = function() {
 			var sound = new Howl({
 			  urls: ['socks.mp3']
+			}).play();
+		}
+
+		clip8.onclick = function() {
+			var sound = new Howl({
+			  urls: ['stolemy.mp3']
+			}).play();
+		}
+
+		clip9.onclick = function() {
+			var sound = new Howl({
+			  urls: ['cheezuschrist.mp3']
 			}).play();
 		}
 	</script>
