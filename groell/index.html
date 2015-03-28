@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Ich bein ein Groell</title>
+		<style type="text/css">
+			html, body { margin: 0; padding: 0; }
+			.clip {
+				float: left;
+				width: 100vw;
+    			height: 50vw;
+    			font-family: Helvetica, Arial;
+    			font-weight: bold;
+    			text-transform: uppercase;
+    			font-size: 9em;
+    			word-break: break-all;
+    			color: #fff;
+    			cursor: pointer;
+			}
+
+			#clip1 {background: #27ae60;}
+			#clip2 {background: #8e44ad;}
+			#clip3 {background: #e74c3c;}
+			#clip4 {background: #f1c40f;}
+			#clip5 {background: #d35400;}
+		</style>
+	</head>
+	<body>
+		<div id="clip1" class="clip">grooooellll</div>
+		<div id="clip2" class="clip">goodgrief</div>
+		<div id="clip3" class="clip">ithinkihavefood</div>
+		<div id="clip4" class="clip">opera_groell</div>
+		<div id="clip5" class="clip">tomaso</div>
+	</body>
+	<script src="howler.min.js"></script>
+	<script type="text/javascript">
+		var clip1 = document.getElementById("clip1");
+		var clip2 = document.getElementById("clip2");
+		var clip3 = document.getElementById("clip3");
+		var clip4 = document.getElementById("clip4");
+		var clip5 = document.getElementById("clip5");
+
+		clip1.onclick = function() {
+			var sound = new Howl({
+			  urls: ['groooellll.mp3']
+			}).play();
+		}
+
+		clip2.onclick = function() {
+			var sound = new Howl({
+			  urls: ['goodgrief.mp3']
+			}).play();
+		}
+
+		clip3.onclick = function() {
+			var sound = new Howl({
+			  urls: ['ithinkihavefood.mp3']
+			}).play();
+		}
+
+		clip4.onclick = function() {
+			var sound = new Howl({
+			  urls: ['opera_groell.mp3']
+			}).play();
+		}
+
+		clip5.onclick = function() {
+			var sound = new Howl({
+			  urls: ['tomaso.mp3']
+			}).play();
+		}
+	</script>
+</html>
