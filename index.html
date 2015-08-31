@@ -69,7 +69,7 @@
             
             <section id="main-content" role="main">
                 <article>
-                    <p><strong>I'm Tom, a technologist with over a decades experience in digital. I'm currently Interactive and Technical Lead for the BBC Digital Story Telling team. </strong> I've co-founded a digital agency, been a technical director and worked with brands, businesses and startups. Been advisor on boards tackling cutting edge research, run talks on interaction design and lead creative technology for institutions and artists.</p>
+                    <p><strong>I'm Tom, a technologist with over a decades experience in digital. I'm currently Interactive and Technology Lead for the BBC Digital Story Telling team. </strong> I've co-founded a digital agency, been a technical director and worked with brands, businesses and startups. Been advisor on boards tackling cutting edge research, run talks on interaction design and lead creative technology for institutions and artists.</p>
                 </article>
             </section>
 
@@ -96,10 +96,16 @@
 
     </div>
 
+    <script src="/js/lib/upup.min.js"></script>
     <script type="text/javascript" src="/js/lib/jquery-2.1.0.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
         $("body").hide().fadeIn(1000);
+    });
+
+    UpUp.start({
+      'content-url': 'index.html',
+      'assets': ['/css/lib/reset.min.css', '/css/base.min.css', '//fonts.typonine.com/WF-003562-001102.css', '//fonts.googleapis.com/css?family=Karla', '/js/lib/modernizr-2.7.2.min.js', '/js/lib/jquery-2.1.0.min.js']
     });
     </script>
 </body>
