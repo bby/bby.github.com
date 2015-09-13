@@ -247,6 +247,12 @@ and (max-width : 670px) {
 }
 #description p {
     clear: both;
+    color: #2E2E2E;
+}
+
+p strong {
+    font-weight: 1000;
+    color: #000;
 }
 
 .divider {
