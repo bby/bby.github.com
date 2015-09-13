@@ -41,8 +41,8 @@
 
     <!-- PREFETCH -->
     <!-- <link rel="prefetch" href="/assets/images/bg-ce49b022.jpg"> -->
-    <link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001102.css" type="text/css" />
-    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="//fonts.typonine.com/WF-003562-001102.css" type="text/css" />
+    <link href='//fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css' />
     <link href='/css/lib/reset.min.css' rel='stylesheet' type='text/css' />
     <link href='/css/base.min.css' rel='stylesheet' type='text/css' />
 
@@ -96,10 +96,16 @@
 
     </div>
 
+    <script src="/js/lib/upup.min.js"></script>
     <script type="text/javascript" src="/js/lib/jquery-2.1.0.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
         $("body").hide().fadeIn(1000);
+    });
+
+    UpUp.start({
+      'content-url': 'index.html',
+      'assets': ['/css/lib/reset.min.css', '/css/base.min.css', '//fonts.typonine.com/WF-003562-001102.css', '//fonts.googleapis.com/css?family=Karla', '/js/lib/modernizr-2.7.2.min.js', '/js/lib/jquery-2.1.0.min.js']
     });
     </script>
 </body>
