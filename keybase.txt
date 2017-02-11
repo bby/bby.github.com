@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tbertz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bigblueyonder.co.uk
+  * I am tbertz (https://keybase.io/tbertz) on keybase.
+  * I have a public key ASDmK-p0jmnhUf80uR9rxVOyVC1mC8tHQLrov9VizQM_BQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e62bea748e69e151ff34b91f6bc553b2542d660bcb4740bae8bfd562cd033f050a",
+            "host": "keybase.io",
+            "kid": "0120e62bea748e69e151ff34b91f6bc553b2542d660bcb4740bae8bfd562cd033f050a",
+            "uid": "d0556c68fdce960d0b7f8dcee51d0d19",
+            "username": "tbertz"
+        },
+        "service": {
+            "hostname": "bigblueyonder.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1486815861,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1486815764,
+        "hash": "55660311b9c5b023b129ff4e5279baa417ce54b81eb7345fdc714a25573cbe53acf193501e976d56b7b9cfcf1b447521f45eb12e125dcab58e148f58263f3dd4",
+        "seqno": 876403
+    },
+    "prev": "fbdf562cc64072c96d8a4bc482ce90f1b6f0e9fdb657e33df0f9e810f38abaa0",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5ivqdI5p4VH/NLkfa8VTslQtZgvLR0C66L/VYs0DPwUKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTYyYmVhNzQ4ZTY5ZTE1MWZmMzRiOTFmNmJjNTUzYjI1NDJkNjYwYmNiNDc0MGJhZThiZmQ1NjJjZDAzM2YwNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTYyYmVhNzQ4ZTY5ZTE1MWZmMzRiOTFmNmJjNTUzYjI1NDJkNjYwYmNiNDc0MGJhZThiZmQ1NjJjZDAzM2YwNTBhIiwidWlkIjoiZDA1NTZjNjhmZGNlOTYwZDBiN2Y4ZGNlZTUxZDBkMTkiLCJ1c2VybmFtZSI6InRiZXJ0eiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYmlnYmx1ZXlvbmRlci5jby51ayIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDg2ODE1ODYxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODY4MTU3NjQsImhhc2giOiI1NTY2MDMxMWI5YzViMDIzYjEyOWZmNGU1Mjc5YmFhNDE3Y2U1NGI4MWViNzM0NWZkYzcxNGEyNTU3M2NiZTUzYWNmMTkzNTAxZTk3NmQ1NmI3YjljZmNmMWI0NDc1MjFmNDVlYjEyZTEyNWRjYWI1OGUxNDhmNTgyNjNmM2RkNCIsInNlcW5vIjo4NzY0MDN9LCJwcmV2IjoiZmJkZjU2MmNjNjQwNzJjOTZkOGE0YmM0ODJjZTkwZjFiNmYwZTlmZGI2NTdlMzNkZjBmOWU4MTBmMzhhYmFhMCIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQImdtk5By7dofVx8n9CAcoS7SJYwbNfHXB8SPKGZDCclBxx+YBvsCKBEKchGw5kh8OeVPrzB+wQiyY16SVl9JwSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCApRKVH7ddxIAExBXUaI9A/iRI+nKJuVt0azVS3G3Mz3KN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tbertz
+
+==================================================================
